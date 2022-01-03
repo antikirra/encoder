@@ -1,5 +1,6 @@
 {
   "name": "antikirra/encoder",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Antikirra\\Encoder\\": "src/"
