@@ -1,0 +1,25 @@
+{
+  "name": "antikirra/encoder",
+  "autoload": {
+    "psr-4": {
+      "Antikirra\\Encoder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kirill Tkachenko",
+      "email": "antikirra@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-mbstring": "*",
+    "tuupola/base58": "^2.1"
+  },
+  "replace": {
+    "symfony/polyfill-mbstring": "*"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
